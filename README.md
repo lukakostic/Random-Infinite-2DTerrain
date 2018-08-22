@@ -11,14 +11,15 @@ Currently the script sets all of the above, so you can comment those 4 lines out
 ##  
 
 
-Setting the component's "Infinite" boolean to true will make it generate a connected terrain to the right.  
+Setting the component's "Infinite" boolean to true will make it generate a connected terrain to the right and set "Infinite" back to false  
 So if you want to infinitely drive you just need set the infinite bool of the terrain below you to true.  
 
 
 When it generates the next terrain it puts it in the "nextTerrainOnRight" field. So if you want infinity then constantly set "Infinite" to true for the terrain below you if its "nextTerrainOnRight" field is set to null.  
 
 
-Delete on infinite will delete the current object as soon as it generates the terrain to right.
+Delete on infinite will delete the current object as soon as it generates the next terrain.
+
 ##  
 
 Whole thing is just 1 simple script.
