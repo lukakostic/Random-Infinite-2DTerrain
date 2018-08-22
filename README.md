@@ -15,11 +15,7 @@ Setting the component's "Infinite" boolean to true will make it generate a conne
 So if you want to infinitely drive you just need set the infinite bool of the terrain below you to true.  
 
 
-Make sure not to set it multiple times as that will create multiple terrains next to it, which is probably what you dont want.  
-So you might want to add a Transform field called child or something and add the next terrain to it to keep track if it already made the next terrain or not  
-
-
-I didnt add it because the whole infinite thing was added last minute and i wouldnt want to make the code longer.  
+When it generates the next terrain it puts it in the "nextTerrainOnRight" field. So if you want infinity then constantly set "Infinite" to true for the terrain below you if its "nextTerrainOnRight" field is set to null.  
 
 
 
