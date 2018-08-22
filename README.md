@@ -1,7 +1,7 @@
 # RandomTerrain2D.cs
 Random Infinite 2D terrain in unity, to be used for driving on. Very simple code. Its in the RandomTerrain2D.cs in the repository.  
 
-It gets randomly generated on start.
+It gets randomly generated on start and has a 2d polygon collider.
 
 
 Put the script on an empty gameobject. That will add a polygon 2d collider and a line renderer. The line renderer needs to have a low width (to look nice) and world position bool set to false. "Loop" bool is optional.  
