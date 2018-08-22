@@ -17,5 +17,16 @@ So if you want to infinitely drive you just need set the infinite bool of the te
 
 When it generates the next terrain it puts it in the "nextTerrainOnRight" field. So if you want infinity then constantly set "Infinite" to true for the terrain below you if its "nextTerrainOnRight" field is set to null.  
 
+##  
 
+Whole thing is just 1 simple script.
+![2dterrain03](https://user-images.githubusercontent.com/41348897/44438020-82ffbc00-a5bd-11e8-8e7f-9ff97247e5c8.png)
 
+1 terrain.
+![2dterrain01](https://user-images.githubusercontent.com/41348897/44438016-82672580-a5bd-11e8-9781-e5dca307186c.png)
+
+2 terrains, "Infinite" was set to true on the first one so it generated another one next to it.
+![2dterrain02](https://user-images.githubusercontent.com/41348897/44438019-82672580-a5bd-11e8-84dd-f9f1a9cc7748.png)
+
+4 terrains.
+![2dterrain04](https://user-images.githubusercontent.com/41348897/44438021-82ffbc00-a5bd-11e8-9fd7-dff640e3ee20.png)
