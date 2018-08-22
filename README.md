@@ -1,7 +1,7 @@
 # 2DTerrain
 Random Infinite 2D terrain in unity, to be used for driving on. Very simple code.
 
-It gets randomly generated on start. Setting the components "Infinite" boolean to true will make it generate a connected terrain to the right, also random.
+It gets randomly generated on start. Setting the component's "Infinite" boolean to true will make it generate a connected terrain to the right.
 
 
 So if you want to infinitely drive you just need set the infinite bool of the terrain below you to true.
