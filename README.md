@@ -1,5 +1,5 @@
 # RandomTerrain2D.cs
-Random Infinite 2D terrain in unity, to be used for driving on. Very simple code.
+Random Infinite 2D terrain in unity, to be used for driving on. Very simple code. Its in the RandomTerrain2D.cs in the repository.  
 
 It gets randomly generated on start.
 
