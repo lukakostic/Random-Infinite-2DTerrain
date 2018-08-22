@@ -8,6 +8,7 @@ Put the script on an empty gameobject. That will add a polygon 2d collider and a
 Currently the script sets all of the above, so you can comment those 4 lines out in the code's Start method if you are gonna set it manually from the inspector.  
 
 
+~
 
 
 Setting the component's "Infinite" boolean to true will make it generate a connected terrain to the right.  
