@@ -17,6 +17,8 @@ So if you want to infinitely drive you just need set the infinite bool of the te
 
 When it generates the next terrain it puts it in the "nextTerrainOnRight" field. So if you want infinity then constantly set "Infinite" to true for the terrain below you if its "nextTerrainOnRight" field is set to null.  
 
+
+Delete on infinite will delete the current object as soon as it generates the terrain to right.
 ##  
 
 Whole thing is just 1 simple script.
